@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achilles L. Bautista – Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h2>Achilles <span>Portfolio</span></h2>
+            </div>
+            <nav class="menu">
+                <a href="#" onclick="showSection('home')" class="nav-link active" data-section="home">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <a href="#" onclick="showSection('profile')" class="nav-link" data-section="profile">
+                    <i class="fas fa-user"></i> Profile
+                </a>
+                <a href="#" onclick="showSection('projects')" class="nav-link" data-section="projects">
+                    <i class="fas fa-folder"></i> Projects
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section active">
+            <div class="hero">
+                <div class="container">
+                    <h1 class="main-title">Welcome to My Portfolio</h1>
+                    <p class="subtitle">Achilles L. Bautista | BSIT 1-C</p>
+                </div>
+            </div>
+
+            <div class="personal-photo">
+                <div class="container">
+                    <div class="photo-frame">
+                        <img src="unnamed.jpg" alt="Achilles L. Bautista" class="personal-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="card">
+                    <h2 class="section-title"><i class="fas fa-user-circle"></i> About Me</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>Hello! I'm Achilles L. Bautista, a passionate Information Technology student at BSIT 2-C. I'm 19 years old and currently pursuing my Bachelor's degree in Information Technology with a focus on software development and discrete mathematics.</p>
+                            <p>I'm dedicated to learning new technologies and applying mathematical concepts to solve real-world problems. Through my academic journey, I've been developing skills in programming, problem-solving, and analytical thinking.</p>
+                        </div>
+                        <div>
+                            <h3 style="margin-bottom: 15px; color: var(--primary);">Skills & Interests</h3>
+                            <ul class="skills-list">
+                                <li>Discrete Mathematics</li>
+                                <li>Programming & Logic</li>
+                                <li>Problem Solving</li>
+                                <li>Academic Research</li>
+                                <li>Team Collaboration</li>
+                                <li>Critical Thinking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2 class="section-title"><i class="fas fa-envelope"></i> Contact Information</h2>
+                    <div class="contact-grid">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email Me</h3>
+                            <a style="color: aliceblue;text-decoration: none;" href="mailto:achilles69bautista@gmail.com">achilles@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Program</h3>
+                            <p>BSIT 2-C</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Location</h3>
+                            <p>Philippines</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <h3>GitHub</h3>
+                            <a style="color: aliceblue;text-decoration: none;" href="https://github.com/AchillesBautista-25">github.com/AchillesBautista-25</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="profile" class="section">
+            <div class="container">
+                <div class="card">
+                    <div class="profile-header">
+                        <div class="profile-avatar">
+                            <img src="/image/achi/unnamed.jpg" alt="Achilles L. Bautista">
+                        </div>
+                        <div class="profile-info">
+                            <h1>Achilles L. Bautista</h1>
+                            <p><i class="fas fa-graduation-cap"></i> Section: BSIT 2-C</p>
+                            <p><i class="fas fa-calendar-alt"></i> Age: 19</p>
+                            <p><i class="fas fa-school"></i> Program: Bachelor of Science in Information Technology</p>
+                        </div>
+                    </div>
+
+                    <div class="grades-section">
+                        <h2 class="section-title"><i class="fas fa-chart-line"></i> Academic Performance</h2>
+                        
+                        <div class="term-section">
+                            <h3 class="term-title">Midterm Grades <span class="badge">Completed</span></h3>
+                            <div class="table-container">
+                                <table class="styled-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Assessment</th>
+                                            <th>Score</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Assignment</td>
+                                            <td><span class="score-average">40/50</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Activity 1</td>
+                                            <td><span class="score-excellent">30/30</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Activity 2</td>
+                                            <td><span class="score-excellent">23/25</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Summative</td>
+                                            <td><span class="score-excellent">94/100</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="term-section">
+                            <h3 class="term-title">Finals Grades <span class="badge">In Progress</span></h3>
+                            <div class="table-container">
+                                <table class="styled-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Assessment</th>
+                                            <th>Score</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Activity 1</td>
+                                            <td><span class="score-excellent">15/15</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Quiz 1</td>
+                                            <td><span class="pending">N/A</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Quiz 2</td>
+                                            <td><span class="score-excellent">18/20</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Group Report</td>
+                                            <td><span class="score-good">87/100</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Long Quiz</td>
+                                            <td><span class="score-good">23/30</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Activity 2</td>
+                                            <td><span class="score-average">15/30</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="card">
+                    <h2 class="section-title"><i class="fas fa-folder"></i> My Academic Projects & Activities</h2>
+                    
+                    <div class="term-section">
+                        <h3 class="term-title">Midterm Projects <span class="badge">Completed</span></h3>
+                        <div class="table-container">
+                            <table class="styled-table">
+                                <thead>
+                                    <tr>
+                                        <th>Project</th>
+                                        <th>Score</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Discrete Math Assignment</td>
+                                        <td><span class="score-average">40/50</span></td>
+                                        <td>Completed</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Logic Gates Activity</td>
+                                        <td><span class="score-excellent">30/30</span></td>
+                                        <td>Completed</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Set Theory Application</td>
+                                        <td><span class="score-excellent">23/25</span></td>
+                                        <td>Completed</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Comprehensive Summative</td>
+                                        <td><span class="score-excellent">94/100</span></td>
+                                        <td>Completed</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div class="term-section">
+                        <h3 class="term-title">Finals Projects <span class="badge">In Progress</span></h3>
+                        <div class="table-container">
+                            <table class="styled-table">
+                                <thead>
+                                    <tr>
+                                        <th>Project</th>
+                                        <th>Score</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Advanced Logic Activity</td>
+                                        <td><span class="score-excellent">15/15</span></td>
+                                        <td>Completed</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Group Research Report</td>
+                                        <td><span class="score-good">87/100</span></td>
+                                        <td>Completed</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Portfolio Website</td>
+                                        <td><span class="pending">In Progress</span></td>
+                                        <td>Developing</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2 class="section-title"><i class="fas fa-file-alt"></i> Document Submissions</h2>
+                    <div class="gallery-container">
+                        <div class="gallery-item">
+                            <div class="empty-image"><img src="/image/achi/7275199e-4291-492b-925e-6921ea929c56.jpg" alt="Assignment Document"></div>
+                            <div class="gallery-caption">Discrete Math Assignment</div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="empty-image"><img src="" alt="Activity Document"></div>
+                            <div class="gallery-caption">Activity 1</div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="empty-image"><img src="/image/achi/f3f00f23-9e6f-44d8-8f92-06f2f782a464.jpg" alt="Activity Document"></div>
+                            <div class="gallery-caption">Activity 2</div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="empty-image"><img src="/image/achi/173c662d-f87d-4356-b99b-673219f3d6d9.jpg" alt="Summative Document"></div>
+                            <div class="gallery-caption">Summative</div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="empty-image"><img src="" alt="Finals Activity"></div>
+                            <div class="gallery-caption">Activity 1 (Finals)</div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="empty-image"><img src="" alt="Research Document"></div>
+                            <div class="gallery-caption">Group Research Report</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Achilles L. Bautista. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
